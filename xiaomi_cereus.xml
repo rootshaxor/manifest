@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="ubports-cereus" fetch="https://github.com/ubports-xiaomi-cereus" revision="lineage-16.0"/>
+
+  <project path="vendor/xiaomi" name="xiaomi-mt6765/proprietary_vendor_xiaomi" remote="ubports-cereus"/>
+  <project path="kernel/xiaomi/mt6765" name="xiaomi-mt6765/android_kernel_xiaomi_mt6765" remote="ubports-cereus"/>
+  <project path="device/xiaomi/cereus" name="xiaomi-mt6765/android_device_xiaomi_cereus" remote="ubports-cereus"/>
+  <project path="device/xiaomi/mt6765-common" name="xiaomi-mt6765/android_device_xiaomi_mt6765-common" remote="ubports-cereus"/>
+
+  <project path="packages/resources/devicesettings" name="lineageos/android_packages_resources_devicesettings" revision="lineage-16.0" remote="github"/>
+</manifest>
