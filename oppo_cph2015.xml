@@ -2,10 +2,10 @@
 <manifest>
   <remote name="ubports-cereus" fetch="https://github.com/rootshaxor" revision="lineage-16.0"/>
 
-  <project path="vendor/oppo" name="rootshaxor/proprietary_vendor_oppo" remote="ubports-cereus"/>
-  <project path="kernel/oppo/mt6765" name="rootshaxor/android_kernel_oppo_mt6765" remote="ubports-cereus"/>
-  <project path="device/oppo/OP4C7D" name="rootshaxor/android_device_oppo_cph2015" remote="ubports-cereus"/>
-  <project path="device/oppo/mt6765-common" name="rootshaxor/android_device_oppo_mt6765-common" remote="ubports-cereus"/>
+  <project path="vendor/oppo" name="rootshaxor/proprietary_vendor_oppo" remote="rootshaxor"/>
+  <project path="kernel/oppo/mt6765" name="rootshaxor/android_kernel_oppo_mt6765" remote="rootshaxor"/>
+  <project path="device/oppo/OP4C7D" name="rootshaxor/android_device_oppo_cph2015" remote="rootshaxor"/>
+  <project path="device/oppo/mt6765-common" name="rootshaxor/android_device_oppo_mt6765-common" remote="rootshaxor"/>
 
   <project path="packages/resources/devicesettings" name="lineageos/android_packages_resources_devicesettings" revision="lineage-16.0" remote="github"/>
 </manifest>
